@@ -1,6 +1,6 @@
 # Node.js + Express + MongoDB Backend API
 
-This repository contains the backend API for [Your Project Name/Description]. It's built using Node.js, Express.js for the server framework, and MongoDB for the database.
+This repository contains the backend API for random-team-generator. It's built using Node.js, Express.js for the server framework, and MongoDB for the database.
 
 ## Technologies Used
 
