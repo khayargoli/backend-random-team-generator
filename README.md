@@ -4,10 +4,10 @@ This repository contains the backend API for random-team-generator. It's built u
 
 ## Technologies Used
 
-* **Node.js:** 
-* **Express.js:**
-* **MongoDB:** 
-* **Mongoose:**
+* **Node.js** 
+* **Express.js**
+* **MongoDB** 
+* **Mongoose**
   
 ## Prerequisites
 
