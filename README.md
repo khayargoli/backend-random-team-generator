@@ -50,7 +50,7 @@ This project uses environment variables to configure sensitive or environment-sp
     PORT=5000
     MONGO_URI=mongodb+srv://rootuser:demopassword-1@cluster0.ixqso.mongodb.net/team_generator_db?retryWrites=true&w=majority&appName=Cluster0
     ```
-    Note: The project uses already hosted instance of MongoDB Atlas therefore you do no need to setup the database locally.
+    Note: The project uses already hosted instance of MongoDB Atlas therefore you do no need to setup the database locally. The connection string is exposed publicly for demo purpose.
 
 ## Running the Project Locally
 
