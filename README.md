@@ -65,4 +65,4 @@ This project uses environment variables to configure sensitive or environment-sp
 
 2.  **Access the API:**
 
-    The API will be accessible at `http://localhost:[PORT]` (e.g., `http://localhost:5000`).
+    The API will be accessible at `http://localhost:5000`.
