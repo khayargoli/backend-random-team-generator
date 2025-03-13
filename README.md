@@ -4,11 +4,11 @@ This repository contains the backend API for random-team-generator. It's built u
 
 ## Technologies Used
 
-* **Node.js:** JavaScript runtime environment.
-* **Express.js:** Fast, unopinionated, minimalist web framework for Node.js.
-* **MongoDB:** NoSQL document database.
-* **Mongoose:** MongoDB object modeling tool designed to work in an asynchronous environment.
-
+* **Node.js:** 
+* **Express.js:**
+* **MongoDB:** 
+* **Mongoose:**
+  
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
