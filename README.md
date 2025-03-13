@@ -6,7 +6,7 @@ This repository contains the backend API for random-team-generator. It's built u
 
 * **Node.js** 
 * **Express.js**
-* **MongoDB** 
+* **MongoDB Atlas** 
 * **Mongoose**
   
 ## Prerequisites
@@ -50,7 +50,7 @@ This project uses environment variables to configure sensitive or environment-sp
     PORT=5000
     MONGO_URI=mongodb+srv://rootuser:demopassword-1@cluster0.ixqso.mongodb.net/team_generator_db?retryWrites=true&w=majority&appName=Cluster0
     ```
-
+    Note: The project uses already hosted instance of MongoDB Atlas therefore you do no need to setup the database locally.
 
 ## Running the Project Locally
 
