@@ -1,11 +1,9 @@
 import Player from "../models/Player.js";
 
-// Add a new player
 export const addPlayer = async (req, res) => {
   try {
     const { name, skill } = req.body;
 
-    // Validate skill level
     if (skill < 1 || skill > 5) {
       return res.status(400).json({ error: "Skill level must be between 1 and 5" });
     }
@@ -18,13 +16,11 @@ export const addPlayer = async (req, res) => {
   }
 };
 
-// Edit a player
 export const editPlayer = async (req, res) => {
   try {
     const { id } = req.params;
     const { name, skill } = req.body;
 
-    // Validate skill level
     if (skill < 1 || skill > 5) {
       return res.status(400).json({ error: "Skill level must be between 1 and 5" });
     }
@@ -45,7 +41,6 @@ export const editPlayer = async (req, res) => {
   }
 };
 
-// Delete a player
 export const deletePlayer = async (req, res) => {
   try {
     const { id } = req.params;
@@ -61,7 +56,6 @@ export const deletePlayer = async (req, res) => {
   }
 };
 
-// Get all players
 export const getAllPlayers = async (req, res) => {
   try {
     const players = await Player.find();
